@@ -1,8 +1,11 @@
-# js-lab-103
-### Lab103 Array: การตรวจสอบArray
-จงเขียนฟังก์ชัน isArray(input) เพื่อตรวจสอบว่า input เป็น Array หรือไม่ 
+# js-lab-104
+### Lab104 Array: คำนวณผลรวม
+ให้คำนวณผลรวมของ salaries ใน object โดยใช้ Object.keys, Object.values และ Object.entries
 
 ```JavaScript
-console.log(isArray([1, 2, 3])); // true
-console.log(isArray("Hello")); // false
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+};
 ```
